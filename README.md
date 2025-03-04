@@ -1,6 +1,9 @@
 # klipper
 klipper v0.12.0 + desuuuu DWIN T5UID1 touchscreen (i use it on Ender 6)
 
+You need modify FW in display:
+https://github.com/Teapack89/DGUS-reloaded-Klipper
+
 This procedure below is for the Ender 6!
 
 Add to printer.cfg:
