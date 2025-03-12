@@ -98,6 +98,9 @@ z_max: 400
 ```
 
 13) Enable Bltouch, adxl,... in printer.cfg (optional)
+
+Change position_endstop and position_max in stepper_x/stepper_y if you have non original extruder and extruder could collide somewhere.
+
 ADXL:
 ```
 [mcu rpi]
@@ -132,7 +135,11 @@ screw4: 254,53
 screw4_name: front right
 ```
 
-If you have BLtouch, on lines with "# disable to use BLTouch" add #, delete # on lines with "# enable to use BLTouch"
+If you have BLtouch, on lines with "# disable to use BLTouch" add #, delete # on lines with "# enable to use BLTouch".
+
+Set X and Y Bltouch offsets:
+https://www.youtube.com/watch?v=FKvPU2nwdts
+
 Personaly i add also this in BLtouch section (original BLtouch, i thing 3Dtouch need different settings):
 ```
 stow_on_each_sample: false
