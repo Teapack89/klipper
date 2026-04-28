@@ -1,5 +1,5 @@
 # klipper
-# Official klipper v0.12.0 + desuuuu DWIN T5UID1 touchscreen mod
+# Official klipper v0.13.0 + desuuuu DWIN T5UID1 touchscreen mod
 
 You need modify FW in display:
 
@@ -202,3 +202,16 @@ GIT_EDITOR=/bin/true git pull -q -X ours --no-rebase https://github.com/Desuuuu/
 
 popd
 ```
+
+
+The Klipper firmware controls 3d-Printers. It combines the power of a
+general purpose computer with one or more micro-controllers. See the
+[features document](https://www.klipper3d.org/Features.html) for more
+information on why you should use the Klipper software.
+
+Start by [installing Klipper software](https://www.klipper3d.org/Installation.html).
+
+Klipper software is Free Software. See the [license](COPYING) or read
+the [documentation](https://www.klipper3d.org/Overview.html). We
+depend on the generous support from our
+[sponsors](https://www.klipper3d.org/Sponsors.html).
